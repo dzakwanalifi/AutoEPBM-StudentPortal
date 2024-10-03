@@ -11,7 +11,7 @@ AutoEPBM StudentPortal adalah ekstensi browser yang dirancang untuk membantu mah
 ## Persyaratan
 
 - **Browser**: Google Chrome atau browser lain yang mendukung ekstensi Chrome.
-- **Akses ke StudentPortal IPB**: Anda harus memiliki akses ke [StudentPortal IPB](https://studentportal.ipb.ac.id/Akademik/EPBM/Formulir).
+- **Akses ke StudentPortal IPB**: Anda harus memiliki akses ke [StudentPortal IPB](https://studentportal.ipb.ac.id/Akademik/EPBM/Detail).
 
 ## Instalasi
 
@@ -21,7 +21,7 @@ Ikuti langkah-langkah berikut untuk menginstal ekstensi ini di browser Anda:
 
    - Clone repositori ini atau unduh sebagai file ZIP dan ekstrak ke folder yang mudah diakses.
      ```
-     git clone https://github.com/username/AutoEPBM-StudentPortal.git
+     git clone https://github.com/dzakwanalifi/AutoEPBM-StudentPortal.git
      ```
 
 2. **Buka Pengaturan Ekstensi di Browser**
@@ -43,33 +43,37 @@ Ikuti langkah-langkah berikut untuk menginstal ekstensi ini di browser Anda:
 
    - Ekstensi **AutoEPBM StudentPortal** sekarang seharusnya muncul di daftar ekstensi Anda.
 
+
 ## Penggunaan
 
-Sebelum menggunakan ekstensi ini, pastikan Anda telah login ke StudentPortal dan berada di halaman formulir EPBM untuk mata kuliah yang ingin Anda evaluasi.
+Sebelum menggunakan ekstensi ini, pastikan Anda telah login ke StudentPortal dan berada di halaman detail EPBM untuk memilih mata kuliah yang ingin Anda evaluasi.
 
-1. **Buka Halaman Formulir EPBM**
+1. **Buka Halaman Detail EPBM**
 
-   - Navigasi ke halaman formulir EPBM untuk mata kuliah Anda:
+   - Navigasi ke halaman detail EPBM untuk memilih mata kuliah:
      ```
-     https://studentportal.ipb.ac.id/Akademik/EPBM/Formulir
+     https://studentportal.ipb.ac.id/Akademik/EPBM/Detail
      ```
-   - Pilih mata kuliah yang ingin dievaluasi sehingga Anda berada di halaman pengisian EPBM.
 
-2. **Jalankan Ekstensi**
+2. **Pilih Mata Kuliah yang Akan Dievaluasi**
+
+   - Temukan dan pilih mata kuliah yang ingin dievaluasi. Anda akan dibawa ke halaman formulir EPBM untuk mata kuliah tersebut.
+
+3. **Jalankan Ekstensi**
 
    - Klik ikon ekstensi **AutoEPBM StudentPortal** di toolbar browser Anda.
 
-3. **Atur Preferensi Pengisian**
+4. **Atur Preferensi Pengisian**
 
    - **Star Rating (1-4)**: Masukkan rating bintang yang ingin Anda berikan (1 sampai 4).
    - **Feedback Message**: Masukkan pesan umpan balik yang ingin Anda sampaikan.
 
-4. **Mulai Mengisi**
+5. **Mulai Mengisi**
 
    - Klik tombol **Mulai Mengisi**.
    - Ekstensi akan secara otomatis mengisi rating, pesan, mencentang checkbox, dan menyimpan evaluasi.
 
-5. **Ulangi untuk Mata Kuliah Lain**
+6. **Ulangi untuk Mata Kuliah Lain**
 
    - Ulangi langkah di atas untuk setiap mata kuliah yang ingin Anda evaluasi.
 
