@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "AutoEPBM StudentPortal",
+  "version": "1.0",
+  "description": "Automatically fill EPBM evaluation forms on the StudentPortal.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://studentportal.ipb.ac.id/Akademik/EPBM/Formulir*"],
+      "js": ["content.js"]
+    }
+  ]
+}
