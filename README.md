@@ -28,7 +28,7 @@ Ikuti langkah-langkah berikut untuk menginstal ekstensi ini di browser Anda:
 
 2. **Unduh Rilis Terbaru**
 
-   - Untuk mengunduh rilis terbaru **AutoEPBM StudentPortal**, klik tautan berikut: [AutoEPBM-v1.0.0.zip](https://github.com/dzakwanalifi/AutoEPBM-StudentPortal/releases/download/v1.0.0/AutoEPBM-v1.0.0.zip)
+   - Untuk mengunduh rilis terbaru **AutoEPBM StudentPortal**, klik tautan berikut: [AutoEPBM-v1.0.0.zip](https://github.com/dzakwanalifi/AutoEPBM-StudentPortal/releases/download/v1.1.0/AutoEPBM-v1.1.0.zip)
    - Simpan file ZIP ke lokasi yang mudah diakses di komputer Anda, kemudian ekstrak file tersebut.
 
 3. **Buka Pengaturan Ekstensi di Browser**
