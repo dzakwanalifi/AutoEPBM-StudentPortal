@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
-AutoEPBM StudentPortal adalah ekstensi browser yang dirancang untuk membantu mahasiswa IPB University dalam mengisi formulir Evaluasi Pembelajaran Berbasis Mahasiswa (EPBM) secara otomatis di StudentPortal. Ekstensi ini akan mengisi rating bintang ⭐, pesan umpan balik 💬, dan menyimpan evaluasi dengan cepat dan efisien. **Perlu dicatat bahwa ekstensi ini khusus untuk mata kuliah dan tidak dapat digunakan untuk evaluasi Sarana dan Prasarana.**
+AutoEPBM StudentPortal adalah ekstensi browser yang dirancang untuk membantu mahasiswa IPB University dalam mengisi formulir Evaluasi Pembelajaran Berbasis Mahasiswa (EPBM) secara otomatis di StudentPortal. Ekstensi ini akan mengisi rating bintang ⭐, pesan umpan balik 💬, dan menyimpan evaluasi dengan cepat dan efisien.
 
 ## Fitur 🌟
 
@@ -275,7 +275,6 @@ Sebelum menggunakan ekstensi ini, pastikan Anda telah login ke StudentPortal dan
 - **Satu Mata Kuliah per Pengisian**: Pastikan Anda berada di halaman formulir EPBM untuk satu mata kuliah sebelum menjalankan ekstensi.
 - **Periksa Kembali Evaluasi**: Disarankan untuk memeriksa kembali evaluasi yang telah diisi sebelum menyimpan untuk memastikan semuanya sesuai dengan keinginan Anda.
 - **Kepatuhan Akademik**: Pastikan penggunaan ekstensi ini sesuai dengan kebijakan dan peraturan akademik yang berlaku di IPB University.
-- **Batasan**: Ekstensi ini hanya berlaku untuk mata kuliah dan tidak dapat digunakan untuk evaluasi Sarana dan Prasarana.
 
 ## Batasan 🚫
 
