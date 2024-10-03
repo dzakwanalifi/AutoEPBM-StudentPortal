@@ -20,29 +20,33 @@ Ikuti langkah-langkah berikut untuk menginstal ekstensi ini di browser Anda:
 1. **Unduh Kode Sumber**
 
    - Clone repositori ini atau unduh sebagai file ZIP dan ekstrak ke folder yang mudah diakses.
-     ```
+     ```bash
      git clone https://github.com/dzakwanalifi/AutoEPBM-StudentPortal.git
      ```
 
-2. **Buka Pengaturan Ekstensi di Browser**
+2. **Unduh Rilis Terbaru**
+
+   - Untuk mengunduh rilis terbaru **AutoEPBM StudentPortal**, klik tautan berikut: [AutoEPBM-v1.0.0.zip](https://github.com/dzakwanalifi/AutoEPBM-StudentPortal/releases/download/v1.0.0/AutoEPBM-v1.0.0.zip)
+   - Simpan file ZIP ke lokasi yang mudah diakses di komputer Anda, kemudian ekstrak file tersebut.
+
+3. **Buka Pengaturan Ekstensi di Browser**
 
    - Buka Google Chrome.
    - Masukkan `chrome://extensions/` di bilah alamat dan tekan `Enter`.
 
-3. **Aktifkan Mode Pengembang**
+4. **Aktifkan Mode Pengembang**
 
    - Di pojok kanan atas halaman Ekstensi, aktifkan **Mode Pengembang**.
 
-4. **Muat Ekstensi yang Tidak Dipak**
+5. **Muat Ekstensi yang Tidak Dipak**
 
    - Klik tombol **Load unpacked** atau **Muat yang tidak dikemas**.
    - Arahkan ke folder tempat Anda menyimpan kode sumber ekstensi ini.
    - Pilih folder tersebut dan klik **Select Folder**.
 
-5. **Ekstensi Terpasang**
+6. **Ekstensi Terpasang**
 
    - Ekstensi **AutoEPBM StudentPortal** sekarang seharusnya muncul di daftar ekstensi Anda.
-
 
 ## Penggunaan
 
