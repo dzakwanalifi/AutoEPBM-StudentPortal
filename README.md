@@ -322,7 +322,3 @@ Ekstensi ini dibuat untuk membantu mempercepat proses pengisian EPBM. Pengguna b
 Jika Anda memiliki pertanyaan atau membutuhkan bantuan lebih lanjut, silakan hubungi [dzakwanalifi@apps.ipb.ac.id](mailto:dzakwanalifi@apps.ipb.ac.id).
 
 **Selamat mengisi EPBM dengan mudah! 🎉**
-
----
-
-Semoga tambahan badge dan FAQ ini membuat informasi lebih bermanfaat dan menarik! 😊
