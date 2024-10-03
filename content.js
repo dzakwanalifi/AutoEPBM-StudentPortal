@@ -21,7 +21,7 @@ function fillEvaluationForm(starRating = 4, message = "Terima kasih atas ilmu da
         fillStarsAndProceed(starRating, message);
     } else if (nextButton.textContent.includes("Simpan EPBM")) {
         console.log("Found 'Simpan EPBM' button, checking form...");
-        fillFormAndSave(message);
+        fillFormAndSave(starRating, message);
     }
 }
 
@@ -96,11 +96,11 @@ function fillTextareaAndProceed(nextButton, message) {
     }, 1000);
 }
 
-function fillFormAndSave(message) {
+function fillFormAndSave(starRating, message) {
     // Cek apakah ada form (textarea)
     const textareas = document.querySelectorAll('textarea.form-control');
     const checkbox = document.querySelector('input[type="checkbox"].mr-3');
-
+    const ratingElements = document.querySelectorAll('output[role="slider"]');
     let isFormFilled = false;
 
     if (textareas.length > 0) {
@@ -119,12 +119,44 @@ function fillFormAndSave(message) {
                 isFormFilled = false;
             }
         });
+    } else if (ratingElements.length > 0) {
+        console.log("No textarea found. Checking for star ratings...");
+
+        let allStarsFilled = true;
+
+        ratingElements.forEach(rating => {
+            const stars = rating.querySelectorAll('span.b-rating-star');
+            if (stars.length >= starRating) {
+                for (let i = 0; i < starRating; i++) {
+                    if (stars[i].classList.contains('b-rating-star-empty')) {
+                        stars[i].click();
+                        console.log(`Clicked star ${i + 1} for rating element.`);
+                    }
+                }
+            }
+        });
+
+        // Periksa apakah semua bintang telah terisi
+        ratingElements.forEach(rating => {
+            const stars = rating.querySelectorAll('span.b-rating-star');
+            if (stars[stars.length - 1].classList.contains('b-rating-star-empty')) {
+                allStarsFilled = false;
+            }
+        });
+
+        if (allStarsFilled) {
+            console.log("All stars filled.");
+            isFormFilled = true;
+        } else {
+            console.log("Not all stars filled. Cannot proceed to save.");
+            isFormFilled = false;
+        }
     } else {
-        console.log("No textarea found. Cannot save.");
+        console.log("No textarea or star ratings found. Cannot save.");
         return;
     }
 
-    // Jika form terisi, centang checkbox; jika tidak, jangan centang
+    // Jika form atau bintang terisi, centang checkbox; jika tidak, jangan centang
     if (isFormFilled) {
         if (checkbox && !checkbox.checked) {
             checkbox.click();
