@@ -81,10 +81,12 @@ Sebelum menggunakan ekstensi ini, pastikan Anda telah login ke StudentPortal dan
 
    - Ulangi langkah di atas untuk setiap mata kuliah yang ingin Anda evaluasi.
 
+
+## Penggunaan di Console Browser
+
 <details>
-  <summary>Penggunaan di Console Browser me</summary>
+  <summary>Lihat cara menggunakan skrip di Console Browser</summary>
    
-   ### Penggunaan di Console Browser
 
    Selain menggunakan ekstensi, Anda juga dapat menjalankan skrip ini secara langsung dari console browser untuk mengisi EPBM secara otomatis. Berikut adalah langkah-langkah penggunaannya:
 
